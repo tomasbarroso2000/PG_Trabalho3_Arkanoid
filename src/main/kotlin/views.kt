@@ -58,7 +58,7 @@ private fun Racket.drawRacket(canvas: Canvas){
     this.drawRacketExtremeArea(canvas)
 }
 
-private fun Ball.drawBall(canvas: Canvas){
+fun Ball.drawBall(canvas: Canvas){
     canvas.drawCircle(this.center.x.toInt(), this.center.y.toInt(), this.radius.toInt(), this.color, 0)
 }
 

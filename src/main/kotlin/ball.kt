@@ -5,7 +5,7 @@ const val BALL_RADIUS = 7.0
 private const val COLOR_BLUE = 0x0080FF
 private const val DX_MIN = -6.0
 private const val DX_MAX = 6.0
-private const val DY_START = -4.0
+const val DY_START = -4.0
 
 data class Ball(
     val center: Location,
